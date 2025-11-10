@@ -19,6 +19,8 @@ export default function LoginScreen({ navigation }) {
       <TextInput placeholder="Password" secureTextEntry onChangeText={setPassword} style={{ margin: 5, borderWidth: 1, padding: 8 }} />
       <Button title="Login" onPress={login} />
       <Button title="Go to Register" onPress={() => navigation.navigate("Register")} />
+      <Button title="Go to Info Screen" onPress={() => navigation.navigate("Info")} />
+
     </View>
   );
 }
